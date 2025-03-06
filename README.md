@@ -27,8 +27,11 @@ pls consider this does not work for every programm, for example it is working fo
 1. This only works for windows
 2. create a new text file
 3. paste in:
-4. `set __COMPAT_LAYER=RunAsInvoker
-start "file.exe"`
+```
+set __COMPAT_LAYER=RunAsInvoker
+start "file.exe"
+```
+4. (ignore that 4. is missing)
 5. change `file.exe` to the name your .exe file
 6. These 2 files must be in the same folder
 7. safe the textfile with `.bat` as file extension
