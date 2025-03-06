@@ -15,4 +15,4 @@ foreach ($file in $files) {
     Write-Host "Geändert: $($file.Name) -> $neuesDatum"
 }
 
-Write-Host "✅ Alle Dateidaten wurden aktualisiert!"
+Write-Host "All Files are updated!"
