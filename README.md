@@ -45,6 +45,8 @@ start "file.exe"
 
 This is a copying file, because sometimes the windows explorer hates me and i hate him too!
 
+- Further Intructions are available as comments in the `robocopy_backup.bat` file
+
 [robocopy_backup.bat](files/robocopy_backup.bat)
 
 ---
