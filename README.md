@@ -4,7 +4,9 @@
 - to be honest i dont now how to write such a file, so good luck with my mess!
 - maybe look in the Table of Content to find what you want!
 
-## Tech Tricks
+# Windows
+
+## Batch
 
 ### Wlan password trick
 
@@ -39,7 +41,38 @@ start "file.exe"
 
 ---
 
-### Autorun for USB-Devices
+### Robocopy
+
+This is a copying file, because sometimes the windows explorer hates me and i hate him too!
+
+[robocopy_backup.bat](files/robocopy_backup.bat)
+
+---
+
+### Hack Effect
+
+This makes a cool hacker looking effect in the cmd Terminal
+
+1. Download [hacking.bat](files/hacking.bat)
+2. run this file *(There be the chance, if you are having an very agressive Antivirusprogramm, that it will block this operation)*
+
+Press `CTRL + C` or close the terminal to end this effect
+
+---
+
+## Powershell
+
+### Change Edit Time
+
+With this file you can easily change the edit- and creation time of all particular files in a folder.
+
+- [change_file_time.ps1](change_file_time.ps1)
+- more instructions are via comments in the Powershell file
+- YOU NEED TO RUN THIS FILE WITH POWERSHELL
+
+---
+
+## Autorun for USB-Devices
 
 This a code configgering USB-Sticks and running programms automatically with them
 
@@ -54,14 +87,6 @@ open=start.bat
 - `icon` defines the used icon for the device in the explorer
 - `label` is the used name of the device
 - `open` is used to open a file, for example a `.bat` file
-
----
-
-### Robocopy
-
-This is a copying file, because sometimes the windows explorer hates me and i hate him too!
-
-![robocopy_backup.bat](robocopy_backup.bat)
 
 ---
 
