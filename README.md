@@ -81,7 +81,7 @@ This a code configgering USB-Sticks and running programms automatically with the
 ```
 [autorun]
 icon=Dara.ico
-label="117GB
+label="117GB"
 open=start.bat
 ```
 
