@@ -60,4 +60,6 @@ This is a copying file, because sometimes the windows explorer hates me and i ha
 
 ![robocopy_backup.bat](robocopy_backup.bat)
 
+---
+
 *Last updated this page on 06.03.2025*
