@@ -8,36 +8,37 @@
 
 ## Batch
 
-### Wlan password trick
+- all bash commands are only working on windows!
 
-This is a simple trick to get the Wlan password from your computer
+### Hack Effect
 
-1. This only works for windows
-2. you need to have the password alrealy registered in your computer
-3. open `cmd.exe`
-4. type `netsh wlan show profile "SSID" key=clear`
-5. SSiD is to network name (for example "FritzBox 7986"), you want to have the password from
-6. scroll down to **security settings**
-7. search for **Key Content**, this is the password
+This makes a cool hacker looking effect in the cmd Terminal
+
+1. make a new file and paste
+```
+@echo off
+color 0A
+:start
+echo %random% %random% %random% %random%
+goto start
+```
+2. save the file as somthing`.bat` *(only the file extension is important)*
+3. run the file
+
+Press `CTRL + C` or close the terminal to end this effect
 
 ---
 
-### run .exe file ignoring admin rights
+### Terminal Loop
 
-pls consider this does not work for every programm, for example it is working for steam.
-
-1. This only works for windows
-2. create a new text file
-3. paste in:
+1. make a new file and paste
 ```
-set __COMPAT_LAYER=RunAsInvoker
-start "file.exe"
+:loopstart
+start
+goto loopstart
 ```
-4. (ignore that 4. is missing)
-5. change `file.exe` to the name your .exe file
-6. These 2 files must be in the same folder
-7. safe the textfile with `.bat` as file extension
-8. double click to run the file
+2. save the file as somthing`.bat` *(only the file extension is important)*
+3. run the file
 
 ---
 
@@ -51,18 +52,39 @@ This is a copying file, because sometimes the windows explorer hates me and i ha
 
 ---
 
-### Hack Effect
+### Run .exe file ignoring admin rights
 
-This makes a cool hacker looking effect in the cmd Terminal
+pls consider this does not work for every programm, for example it is working for steam.
 
-1. Download [hacking.bat](files/hacking.bat)
-2. run this file *(There be the chance, if you are having an very agressive Antivirusprogramm, that it will block this operation)*
+1. create a new text file and paste:
+```
+set __COMPAT_LAYER=RunAsInvoker
+start "file.exe"
+```
+4. (ignore that 2 and 3 are missing)
+5. change `file.exe` to the name your .exe file
+6. These 2 files must be in the same folder
+7. safe the textfile with `.bat` as file extension
+8. double click to run the file
 
-Press `CTRL + C` or close the terminal to end this effect
+---
+
+### Wlan password trick
+
+This is a simple trick to get the Wlan password from your computer
+
+1. you need to have the password alrealy registered in your computer
+2. open `cmd.exe`
+3. type `netsh wlan show profile "SSID" key=clear`
+4. SSiD is to network name (for example "FritzBox 7986"), you want to have the password from
+5. scroll down to **security settings**
+6. search for **Key Content**, this is the password
 
 ---
 
 ## Powershell
+
+- you need a powershell terminal installed for this! *(but on the windows it is usally installed)*
 
 ### Change Edit Time
 
