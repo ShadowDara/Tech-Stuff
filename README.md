@@ -39,6 +39,7 @@ goto loopstart
 ```
 2. save the file as somthing`.bat` *(only the file extension is important)*
 3. run the file
+4. DONT DO STEP 3, YOUR COMPUTER WONT LIKE THIS!
 
 ---
 
